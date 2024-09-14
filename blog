@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rory's Minecraft Builds - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Rory's Minecraft Builds</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Post Section -->
+    <section class="blog-post-detail">
+        <div class="container">
+            <article>
+                <h2>Epic Castle Build</h2>
+                <img src="build1.jpg" alt="Epic Castle">
+                <p class="date">Posted on: January 5, 2024</p>
+                <p>This epic medieval castle was built over 2 months and includes secret rooms, a sprawling courtyard, and massive towers that reach the clouds...</p>
+            </article>
+        </div>
+    </section>
+
+</body>
+</html>
