@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rory's Minecraft Builds</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1>Rory's Minecraft Builds</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="banner">
+        <div class="container">
+            <h2>Explore Unique Minecraft Creations!</h2>
+        </div>
+    </header>
+
+    <!-- Blog Grid Section -->
+    <section class="blog-grid">
+        <div class="container">
+            <div class="grid">
+                <article class="blog-post">
+                    <img src="build1.jpg" alt="Minecraft Build 1">
+                    <h3>Epic Castle Build</h3>
+                    <p>A medieval-style castle with secret rooms and towers.</p>
+                    <a href="post1.html" class="read-more">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="build2.jpg" alt="Minecraft Build 2">
+                    <h3>Treehouse in the Sky</h3>
+                    <p>A peaceful retreat high above the clouds.</p>
+                    <a href="post2.html" class="read-more">Read More</a>
+                </article>
+                <article class="blog-post">
+                    <img src="build3.jpg" alt="Minecraft Build 3">
+                    <h3>Underwater City</h3>
+                    <p>An amazing underwater city built with glass domes.</p>
+                    <a href="post3.html" class="read-more">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
