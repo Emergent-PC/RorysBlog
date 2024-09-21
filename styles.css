@@ -6,20 +6,26 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #87CEEB;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #333;
+    background-color: #006400;
     color: #fff;
     padding: 10px 0;
 }
 
 .navbar h1 {
     margin-left: 20px;
+    font-size: 1.5rem;
 }
 
 .nav-links {
@@ -34,21 +40,28 @@ body {
 }
 
 .nav-links a {
+    font-size: 1.2rem;
     color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+}
+
+.nav-links a:hover {
+    background-color: #32CD32;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* Banner */
 .banner {
-    background-color: #4CAF50;
-    color: white;
-    padding: 50px 0;
+    background-image: url('minecraft-landscape.jpg');
+    background-size: cover;
+    background-position: center;
     text-align: center;
+    color: white;
+    padding: 80px 0;
 }
 
 .banner h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 /* Blog Grid */
@@ -66,6 +79,7 @@ body {
 .blog-post {
     background-color: white;
     padding: 20px;
+    border: 4px solid #8B4513;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -77,16 +91,22 @@ body {
 
 .blog-post h3 {
     margin: 10px 0;
+    font-size: 1.2rem;
 }
 
 .read-more {
     display: inline-block;
     margin-top: 10px;
-    background-color: #4CAF50;
+    background-color: #32CD32;
     color: white;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.read-more:hover {
+    background-color: #228B22;
 }
 
 /* Blog Post Detail */
@@ -112,43 +132,35 @@ body {
 form {
     background-color: white;
     padding: 20px;
+    border: 4px solid #8B4513;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-label {
+form label {
     display: block;
-    margin-top: 10px;
+    margin: 10px 0 5px;
 }
 
-input, textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border: 2px solid #8B4513;
     border-radius: 5px;
 }
 
-button {
-    background-color: #4CAF50;
+form button {
+    background-color: #32CD32;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
-button:hover {
-    background-color: #45a049;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-    }
+form button:hover {
+    background-color: #228B22;
 }
